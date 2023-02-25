@@ -27,8 +27,8 @@ RUN cd /xuexi/; \
   google-chrome --version; \
   rm -f google-chrome-stable_current_amd64.deb
 RUN cd /xuexi/; \
-  wget -O chromedriver_linux64_92.0.4515.107.zip http://npm.taobao.org/mirrors/chromedriver/92.0.4515.107/chromedriver_linux64.zip; \
-  unzip chromedriver_linux64_92.0.4515.107.zip; \
+  wget -O chromedriver_linux64_110.0.5481.77.zip http://npm.taobao.org/mirrors/chromedriver/110.0.5481.77/chromedriver_linux64.zip; \
+  unzip chromedriver_linux64_110.0.5481.77.zip; \
   chmod 755 chromedriver; \
   ls -la; \
   ./chromedriver --version
